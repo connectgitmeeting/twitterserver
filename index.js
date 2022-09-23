@@ -51,7 +51,7 @@ const startServer = (port, auth) => http.createServer((req, res) => {
 (async () => {
   try {
     const url = "https://twitterserver.azurewebsites.net";
-    const webhookURL = `${url}/standalone-server/webhook`;
+    const webhookURL = `${url}/webhook/twitter`;
 
     const config = {
       token: "1497107804381130752-hvyQCDefazNcfHHfbnASWvoTjKcik0",
